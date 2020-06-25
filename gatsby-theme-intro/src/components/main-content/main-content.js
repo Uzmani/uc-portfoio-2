@@ -1,11 +1,11 @@
-import React from "react"
-import About from "../about/about"
-import ContactForm from "../contact-form/contact-form"
-import Projects from "../projects/projects"
-import Skills from "../skills/skills"
-import Summary from "../summary/summary"
-import Tools from "../tools/tools"
-import WorkHistory from "../work-history/work-history"
+import React from 'react';
+import About from '../about/about';
+import ContactForm from '../contact-form/contact-form';
+import Projects from '../projects/projects';
+import Skills from '../skills/skills';
+import Summary from '../summary/summary';
+import Tools from '../tools/tools';
+import WorkHistory from '../work-history/work-history';
 
 const MainContent = ({ history, projects, profile }) => {
   return (
@@ -24,9 +24,9 @@ const MainContent = ({ history, projects, profile }) => {
       {profile.about && <About about={profile.about} />}
       <Projects projects={projects} />
       <WorkHistory history={history} />
-      <ContactForm email={profile.email} budget={profile.budget} />
+      <ContactForm />
     </main>
-  )
-}
+  );
+};
 
-export default MainContent
+export default MainContent;
