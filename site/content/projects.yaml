@@ -1,0 +1,51 @@
+- name: FrndlyTV
+  url: https://www.frndlytv.com/
+  description: Video Streaming service marketing site with several API integrations. Built buyflow with payments and login/logout functionality
+  status: live
+  tags:
+    - JavaScript
+    - React
+    - NodeJS
+    - NextJS
+    - Postgres
+    - SASS
+  icon: website
+  image: images/frndly-screen.jpg
+
+- name: Ten-X
+  url: https://commercial.ten-x.com/product/how-ten-x-works
+  description: Commercial realestate sales. Wordpress site with API integrations. Listing search/filtering fuctionality built with React. Designed and built SVG and scroll animations
+  status: live
+  tags:
+    - React
+    - Wordpress
+    - Greensock (GSAP)
+    - Adobe Animate
+  icon: website
+  image: images/tenx-screen.jpg
+
+- name: Credo Energy
+  url: https://www.credoenergy.com/
+  description: Providing homes with access to 100% clean electricity for homes. Implemented geolocation based sales targeting via zip codes
+  status: live
+  tags:
+    - React
+    - NodeJS
+    - Postgres
+    - HTML/SASS
+    - Webpack
+    - AWS
+  icon: website
+  image: images/credo-screen.jpg
+
+- name: Spectrum Business
+  url: https://business.spectrum.com/
+  description: Webiste built with AEM components customized on the backend using Java and Javascript. Authored many landing pages and site redesigns. Worked as an embedded engineer with the Spectrum team
+  status: live
+  tags:
+    - JavaScript
+    - HTML/CSS
+    - Java
+    - AEM
+  icon: website
+  image: images/sb-screen.png
