@@ -3,7 +3,7 @@
   name: John Doe
   email: john.doe@change.me
   profession: Web Developer
-  image: images/profiles.jpg
+  image: images/profile.jpg
   location: New York, USA
   relocation: true
   company: Atomic Studio

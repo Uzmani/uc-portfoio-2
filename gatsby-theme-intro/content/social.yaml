@@ -1,8 +1,8 @@
 - name: linkedin
-  url: https://linkedin.com/in/usmanchaudhary1/
+  url: https://linkedin.com/in/username
 
 - name: twitter
-  url: https://twitter.com/Usmanistan
+  url: https://twitter.com/username
 
 - name: facebook
   url:
@@ -20,10 +20,13 @@
   url:
 
 - name: github
-  url: https://github.com/Uzmani/
+  url: https://github.com/username
 
 - name: goodreads
   url:
 
 - name: xing
+  url:
+
+- name: youtube
   url:

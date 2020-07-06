@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    description: 'Personal page of Usman Chaudhary',
-    locale: 'en',
-    title: 'Usman Chaudhary | Web dev',
+    description: "Usman Chaudhary | Web dev",
+    locale: "en",
+    title: "Usman C",
   },
   plugins: [
     {
-      resolve: '@wkocjan/gatsby-theme-intro',
+      resolve: "@wkocjan/gatsby-theme-intro",
       options: {
-        basePath: '/',
-        contentPath: 'content/',
+        basePath: "/",
+        contentPath: "content/",
         showThemeLogo: false,
-        theme: 'dark-blue',
+        theme: "dark-blue",
       },
     },
   ],
-};
+}

@@ -1,24 +1,24 @@
 module.exports = ({
-  basePath = '/',
-  contentPath = 'content/',
-  showThemeLogo = false,
-  theme = 'classic',
+  basePath = "/",
+  contentPath = "content/",
+  showThemeLogo = true,
+  theme = "classic",
 }) => {
   return {
     siteMetadata: {
-      description: 'Personal page of John Doe',
-      locale: 'en',
+      description: "Personal page of John Doe",
+      locale: "en",
       showThemeLogo,
-      title: 'John Doe',
+      title: "John Doe",
     },
     plugins: [
       {
         resolve: `gatsby-plugin-postcss`,
         options: {
           postCssPlugins: [
-            require('tailwindcss')(require('./tailwind.config')(theme)),
-            require('postcss-input-range'),
-            require('autoprefixer'),
+            require("tailwindcss")(require("./tailwind.config")(theme)),
+            require("postcss-input-range"),
+            require("autoprefixer"),
           ],
         },
       },
@@ -31,10 +31,10 @@ module.exports = ({
         },
       },
       {
-        resolve: 'gatsby-plugin-react-svg',
+        resolve: "gatsby-plugin-react-svg",
       },
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
     ],
-  };
-};
+  }
+}
