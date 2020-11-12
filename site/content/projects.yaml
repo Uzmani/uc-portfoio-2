@@ -13,7 +13,7 @@
   image: images/frndly-screen.jpg
 
 - name: Ten-X
-  url: https://commercial.ten-x.com/product/how-ten-x-works
+  url: https://www.ten-x.com/
   description: Commercial realestate sales. Wordpress site with API integrations. Listing search/filtering fuctionality built with React. Designed and built SVG and scroll animations
   status: live
   tags:
