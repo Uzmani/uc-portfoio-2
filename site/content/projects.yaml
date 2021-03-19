@@ -26,7 +26,7 @@
 
 - name: Credo Energy
   url: https://www.credoenergy.com/
-  description: Providing homes with access to 100% clean electricity for homes. Implemented geolocation based sales targeting via zip codes
+  description: Providing homes with access to 100% clean electricity. Implemented geolocation based sales targeting via zip codes
   status: live
   tags:
     - React
